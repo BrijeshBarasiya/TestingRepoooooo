@@ -1,24 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Testing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eOe-AQ-PyC">
+                                <rect key="frame" x="41.5" y="274" width="331" height="358"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voO-Bv-Erv">
+                                        <rect key="frame" x="0.0" y="0.0" width="331" height="63.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Roma"/>
+                                        <connections>
+                                            <segue destination="2mj-UE-nsy" kind="show" id="bza-vB-9yb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kh4-ID-f7x">
+                                        <rect key="frame" x="0.0" y="73.5" width="331" height="63.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Shubham"/>
+                                        <connections>
+                                            <segue destination="Iu5-jl-Rz1" kind="show" id="Rus-Xl-djA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEb-N7-b9d">
+                                        <rect key="frame" x="0.0" y="147" width="331" height="64"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Aparna"/>
+                                        <connections>
+                                            <segue destination="6LQ-Cq-hKS" kind="show" id="jBe-hI-kvT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loa-dO-9xi">
+                                        <rect key="frame" x="0.0" y="221" width="331" height="63.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Rishita"/>
+                                        <connections>
+                                            <segue destination="nqV-MC-cSX" kind="show" id="mkE-kQ-EVd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFE-Tg-jFG">
+                                        <rect key="frame" x="0.0" y="294.5" width="331" height="63.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Jay"/>
+                                        <connections>
+                                            <segue destination="h9s-AX-VHm" kind="show" id="BLZ-L7-7Lu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eOe-AQ-PyC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="77T-hf-ptC"/>
+                            <constraint firstItem="eOe-AQ-PyC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Cl6-T5-T3u"/>
+                            <constraint firstItem="eOe-AQ-PyC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ifZ-g6-20Z"/>
+                            <constraint firstItem="eOe-AQ-PyC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="me5-3e-TN0"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="88"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="GBd-lg-024">
+            <objects>
+                <viewControllerPlaceholder id="2mj-UE-nsy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="098-YU-koE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJ8-xi-f5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-12"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="gq7-i3-4hm">
+            <objects>
+                <viewControllerPlaceholder id="Iu5-jl-Rz1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B16-42-npG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jup-HY-92I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="38"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="saV-AE-XsX">
+            <objects>
+                <viewControllerPlaceholder id="6LQ-Cq-hKS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Lcm-Oy-0uh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZa-V5-yfp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="88"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="FKe-nU-lMc">
+            <objects>
+                <viewControllerPlaceholder id="nqV-MC-cSX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kGu-KW-akj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G5e-ya-J92" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="143"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="tTx-9x-fnO">
+            <objects>
+                <viewControllerPlaceholder id="h9s-AX-VHm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MrW-2F-G66"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X72-9r-Wmj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="195"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
