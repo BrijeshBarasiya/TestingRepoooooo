@@ -16,6 +16,7 @@
 		A8E07DC2286F0127009903A6 /* TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DC1286F0127009903A6 /* TestingTests.swift */; };
 		A8E07DCC286F0127009903A6 /* TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DCB286F0127009903A6 /* TestingUITests.swift */; };
 		A8E07DCE286F0127009903A6 /* TestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DCD286F0127009903A6 /* TestingUITestsLaunchTests.swift */; };
+		F1DC0D062872BA3100945526 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DC0D052872BA3100945526 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A8E07DC7286F0127009903A6 /* TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E07DCB286F0127009903A6 /* TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITests.swift; sourceTree = "<group>"; };
 		A8E07DCD286F0127009903A6 /* TestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1DC0D052872BA3100945526 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A8E07DB3286F0127009903A6 /* Assets.xcassets */,
 				A8E07DB5286F0127009903A6 /* LaunchScreen.storyboard */,
 				A8E07DB8286F0127009903A6 /* Info.plist */,
+				F1DC0D052872BA3100945526 /* NewViewController.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E07DAF286F0126009903A6 /* ViewController.swift in Sources */,
+				F1DC0D062872BA3100945526 /* NewViewController.swift in Sources */,
 				A8E07DAB286F0126009903A6 /* AppDelegate.swift in Sources */,
 				A8E07DAD286F0126009903A6 /* SceneDelegate.swift in Sources */,
 			);
