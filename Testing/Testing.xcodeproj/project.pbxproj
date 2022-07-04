@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D814C172872B7A1006C21A1 /* RishitaLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D814C162872B7A1006C21A1 /* RishitaLogin.storyboard */; };
+		A4AF8F572872BC9200A870BA /* APStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AF8F562872BC9200A870BA /* APStoryboard.storyboard */; };
 		A8E07DAB286F0126009903A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DAA286F0126009903A6 /* AppDelegate.swift */; };
 		A8E07DAD286F0126009903A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DAC286F0126009903A6 /* SceneDelegate.swift */; };
 		A8E07DAF286F0126009903A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E07DAE286F0126009903A6 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		0D814C162872B7A1006C21A1 /* RishitaLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RishitaLogin.storyboard; sourceTree = "<group>"; };
+		A4AF8F562872BC9200A870BA /* APStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = APStoryboard.storyboard; sourceTree = "<group>"; };
 		A8E07DA7286F0126009903A6 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E07DAA286F0126009903A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E07DAC286F0126009903A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = Rishita;
 			sourceTree = "<group>";
 		};
+		A4AF8F552872BC7D00A870BA /* APTesting */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF8F562872BC9200A870BA /* APStoryboard.storyboard */,
+			);
+			path = APTesting;
+			sourceTree = "<group>";
+		};
 		A8E07D9E286F0126009903A6 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		A8E07DA9286F0126009903A6 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
+				A4AF8F552872BC7D00A870BA /* APTesting */,
 				A92BED3A2872B79D000088D9 /* ShubhamTesting */,
 				A8E07DAA286F0126009903A6 /* AppDelegate.swift */,
 				A8E07DAC286F0126009903A6 /* SceneDelegate.swift */,
@@ -253,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF8F572872BC9200A870BA /* APStoryboard.storyboard in Resources */,
 				A92BED3C2872B7C3000088D9 /* ShubhamStoryboard.storyboard in Resources */,
 				A8E07DB7286F0127009903A6 /* LaunchScreen.storyboard in Resources */,
 				A8E07DB4286F0127009903A6 /* Assets.xcassets in Resources */,
