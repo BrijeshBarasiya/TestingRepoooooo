@@ -44,11 +44,16 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemTealColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                 </buttonConfiguration>
                             </button>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9g-nj-cB1">
                                 <rect key="frame" x="139" y="423" width="136" height="20.5"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Have not already Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eY3-Ql-0HI">
+                                <rect key="frame" x="20" y="428.5" width="374" height="20.5"/>
+>>>>>>> 10ad2ae (Changes Done by Jay Shah in Rishita Login Screen)
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,9 +64,15 @@
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zk2-xP-DW0" secondAttribute="trailing" constant="40" id="7uu-Zw-exg"/>
                             <constraint firstItem="zk2-xP-DW0" firstAttribute="top" secondItem="bSC-IR-TJV" secondAttribute="bottom" constant="48.5" id="8zb-kj-60C"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="eY3-Ql-0HI" secondAttribute="trailing" constant="20" id="A7Z-KT-lWJ"/>
                             <constraint firstItem="bSC-IR-TJV" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Csm-CQ-a9f"/>
+<<<<<<< HEAD
                             <constraint firstItem="X9g-nj-cB1" firstAttribute="top" secondItem="2e8-bh-Pvt" secondAttribute="bottom" constant="84.5" id="Ee9-FM-ynx"/>
+=======
+                            <constraint firstItem="eY3-Ql-0HI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="D89-2X-HU3"/>
+>>>>>>> 10ad2ae (Changes Done by Jay Shah in Rishita Login Screen)
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="height" secondItem="zk2-xP-DW0" secondAttribute="height" multiplier="0.5" id="JuE-FY-a2n"/>
+                            <constraint firstItem="eY3-Ql-0HI" firstAttribute="top" secondItem="2e8-bh-Pvt" secondAttribute="bottom" constant="90" id="ZL0-h9-Kjv"/>
                             <constraint firstItem="zk2-xP-DW0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="fL0-jD-xvb"/>
                             <constraint firstItem="bSC-IR-TJV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="85" id="k5i-Pf-IEM"/>
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="top" secondItem="zk2-xP-DW0" secondAttribute="bottom" constant="10" id="kN0-6q-Tcc"/>
@@ -80,8 +91,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
