@@ -47,6 +47,12 @@
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9g-nj-cB1">
+                                <rect key="frame" x="139" y="423" width="136" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -54,11 +60,13 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zk2-xP-DW0" secondAttribute="trailing" constant="40" id="7uu-Zw-exg"/>
                             <constraint firstItem="zk2-xP-DW0" firstAttribute="top" secondItem="bSC-IR-TJV" secondAttribute="bottom" constant="48.5" id="8zb-kj-60C"/>
                             <constraint firstItem="bSC-IR-TJV" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Csm-CQ-a9f"/>
+                            <constraint firstItem="X9g-nj-cB1" firstAttribute="top" secondItem="2e8-bh-Pvt" secondAttribute="bottom" constant="84.5" id="Ee9-FM-ynx"/>
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="height" secondItem="zk2-xP-DW0" secondAttribute="height" multiplier="0.5" id="JuE-FY-a2n"/>
                             <constraint firstItem="zk2-xP-DW0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="fL0-jD-xvb"/>
                             <constraint firstItem="bSC-IR-TJV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="85" id="k5i-Pf-IEM"/>
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="top" secondItem="zk2-xP-DW0" secondAttribute="bottom" constant="10" id="kN0-6q-Tcc"/>
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="trailing" secondItem="zk2-xP-DW0" secondAttribute="trailing" id="opa-ON-lfx"/>
+                            <constraint firstItem="X9g-nj-cB1" firstAttribute="centerX" secondItem="2e8-bh-Pvt" secondAttribute="centerX" id="oqr-HU-zN7"/>
                             <constraint firstItem="2e8-bh-Pvt" firstAttribute="leading" secondItem="zk2-xP-DW0" secondAttribute="leading" id="phf-L8-FgO"/>
                         </constraints>
                     </view>
